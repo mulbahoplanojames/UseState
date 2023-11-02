@@ -1,0 +1,40 @@
+.form-wripper {
+  border: 2px solid tomato;
+  box-shadow: 12px 12px 5px 4px teal;
+  width: 30%;
+  padding: 30px 20px;
+  margin: 5% auto;
+  border-radius: 10px;
+}
+
+
+.input {
+  width: 98%;
+  height: 5vh;
+  font-size: 18px;
+  outline: none;
+  margin-bottom: 4%;
+  padding-left: 10px;
+}
+
+#submit {
+  width: 95%;
+  height: 5vh;
+  margin-left: 3%;
+  font-size: 18px;
+  color: tomato;
+  background: transparent;
+  border: 2px solid tomato;
+}
+.display {
+  text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+  .form-wripper {
+    width: 85%;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
